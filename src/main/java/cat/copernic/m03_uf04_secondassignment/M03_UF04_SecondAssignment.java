@@ -13,13 +13,14 @@ public class M03_UF04_SecondAssignment {
     
     public static void main(String[] args) {
         
-         Sobremesa terminal = new TerminalDeVenta("Terminal", "Especificacions estandard", 1200);
+        Mobiles tablet = new Tablet("Samsung","Model Z Blanc", 500);
+        Sobremesa terminal = new TerminalDeVenta("Terminal", "Especificacions estandard", 1200);
          
-         terminal.conecta();
+        terminal.conecta();
          
-         terminal.desconecta();
+        terminal.desconecta();
          
-         Mobiles tablet = new Tablet("Samsung","Model Z Blanc", 500);
+         
          
     }
  
