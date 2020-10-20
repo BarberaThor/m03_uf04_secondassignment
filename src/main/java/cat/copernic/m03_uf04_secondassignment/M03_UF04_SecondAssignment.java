@@ -12,7 +12,15 @@ package cat.copernic.m03_uf04_secondassignment;
 public class M03_UF04_SecondAssignment {
     
     public static void main(String[] args) {
-        System.out.println("Hi");
+        
+         Sobremesa terminal = new TerminalDeVenta("Terminal", "Especificacions estandard", 1200);
+         
+         terminal.conecta();
+         
+         terminal.desconecta();
+         
+         Mobiles tablet = new Tablet("Samsung","Model Z Blanc", 500);
+         
     }
-    
+ 
 }
